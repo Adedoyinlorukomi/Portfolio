@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(110deg, orange, #883000);
+}
+#web{
+    position: absolute;
+    top: 16px;
+    left: 245px;
+    width: 370px;
+
+}
+#home{
+    background-color: #9a3412;
+    padding: 2px 7px;
+    height: 32px;
+    color: white;
+    border-radius: 8px;
+}
+#home:hover{
+    background-color: #ffffff;
+    color: #9a3412;
+    border: 2px dashed #9a3412;
+}

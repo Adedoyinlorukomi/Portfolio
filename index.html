@@ -3,11 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Doyin's Portfolio</title>
     <link rel="stylesheet" href="input.css">
       <link href="output.css" rel="stylesheet">
+      <!--npx tailwindcss -i ./input.css -o ./output.css --watch-->
 </head>
 <body>
-    <h2 class="bg-slate-600">Hello Tailwind</h2>
+    <div class="m-auto w-[70%] ">
+        <div class="bg-slate-200 h-[600px] pt-9 text-orange-950 flex flex-col gap-9" >
+            <div id="header" class="flex justify-around">
+                <div class="text-3xl pt-2">Adedoyin A.Z</div>
+                <div class="flex gap-9 pt-3">
+                    <a rel="noopener" href="index.html" id="home">Home</a>
+                    <a rel="noopener" href="#work_projects">Work</a>
+                    <a  rel="noopener" href="#coding_realization">About</a>
+                    <a  rel="noopener" href="#follow_me_on">Contact</a>
+                </div>
+                <img src="./images/navbar.svg" alt="">
+            </div>
+            <div class="relative">
+                <img src="./images/banner-two.jpg" alt="" class="w-[500px] h-[360px] m-auto mt-7 rounded-3xl">
+                <p id="web" class="text-orange-800 text-3xl font-semibold italic">Web development?<br>
+                    <br>my passion</p>
+            </div>
+        </div>
+        
+        <div id="about" class="bg-black h-[700px] text-white">
+            <div>
+                <a id="coding_realization"><p class="">ABOUT ME</p></a>
+                <p>Coding for me is my newest realization, 
+                    and i intend on advancing in this skill and keeping it for a very long time</p>
+                <p>I am Adedoyin AKINSANYA, a 400level Anatomy student of Olabisi Onabanjo University, Sagamu campus.</p>
+            </div>
+            <div>
+                Attended Axia Africa bootcamp, currently taking a Front-end Engineering course, at Axia Africa.
+                Below are the tools I am well versed in:
+                <div class="flex gap-10">
+                    <ol type="">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>TAILWIND CSS</li>
+                        <li>JAVASCRIPT</li>
+                    </ol>
+
+                    <ol type="I">
+                        <li>VS CODE</li>
+                        <li>GITHUB</li>
+                        <li>NETLIFY</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="bg-black h-[700px]">
+            <p class="">ABOUT ME</p>
+        </div>
+
+        <div class="bg-black h-[500px] p-[100px]">
+            <div class="flex justify-between text-white">
+                <div class="">Adedoyin Akinsanya</div>
+                <div class="flex flex-col gap-2">
+                    <a id="follow_me_on"><p class="">Follow me on</p></a>
+                    <div class="flex gap-5">
+                        <a href="#"><img src="./images/twitter-white.svg" alt=""></a>
+                        <a href="#"><img src="./images/IG-white.svg" alt=""></a>
+                        <a href="#"><img src="./images/discord-white.svg" alt=""></a>
+                        <a href="#"><img src="./images/twitter-white.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-5xl text-white text-center mt-10">keep in touch with me<br>text Hi!</p>
+        </div>
+    </div>
 </body>
 </html>
