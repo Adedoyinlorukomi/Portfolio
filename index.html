@@ -6,20 +6,30 @@
     <title>Doyin's Portfolio</title>
     <link rel="stylesheet" href="input.css">
       <link href="output.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montez&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
       <!--npx tailwindcss -i ./input.css -o ./output.css --watch-->
 </head>
-<body>
-    <div class="m-auto w-[70%] ">
+<body class="relative">
+    <img src="./images/banner-one.jpg" alt="" class="bg-black rounded-full absolute w-[120px] h-[120px]">
+    <img src="./images/banner-one.jpg" alt="" class="bg-black rounded-full absolute w-[120px] h-[120px] right-5 top-11">
+    <img src="./images/banner-one.jpg" alt="" class="bg-black rounded-full absolute w-[120px] h-[120px] top-9">
+    <img src="./images/banner-one.jpg" alt="" class="bg-black rounded-full absolute w-[120px] h-[120px]">
+    <div class="m-auto w-[80%]">
         <div class="bg-slate-200 h-[600px] pt-9 text-orange-950 flex flex-col gap-9" >
             <div id="header" class="flex justify-around">
-                <div class="text-3xl pt-2">Adedoyin A.Z</div>
+                <div class="flex gap-3">
+                    <a  rel="noopener" href="#follow_me_on"><img src="./images/logo.png" alt="" class="w-[50px] h-[50px]"></a>
+                    <p class="text-3xl pt-2">Adedoyin A.Z</p>
+                </div>
                 <div class="flex gap-9 pt-3">
                     <a rel="noopener" href="index.html" id="home">Home</a>
                     <a rel="noopener" href="#work_projects">Work</a>
                     <a  rel="noopener" href="#coding_realization">About</a>
                     <a  rel="noopener" href="#follow_me_on">Contact</a>
                 </div>
-                <img src="./images/navbar.svg" alt="">
+                <a  rel="noopener" href="#coding_realization"><img src="./images/navbar.svg" alt=""></a>
             </div>
             <div class="relative">
                 <img src="./images/banner-two.jpg" alt="" class="w-[500px] h-[360px] m-auto mt-7 rounded-3xl">
@@ -71,7 +81,7 @@
                     </div>
                 </div>
             </div>
-            <p class="text-5xl text-white text-center mt-10">keep in touch with me<br>text Hi!</p>
+            <p class="text-5xl text-white text-center mt-10 font-['Dancing Script']">keep in touch with me<br>text Hi!</p>
         </div>
     </div>
 </body>
