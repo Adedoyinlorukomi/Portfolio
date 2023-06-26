@@ -117,5 +117,11 @@ li:hover{
     }
     #projects{
         flex-direction: column-reverse;
+        gap: 6px;
+        margin: auto;
+        height: 1500px;
+    }
+    #img-one{
+        flex-direction: flex;
     }
 }
