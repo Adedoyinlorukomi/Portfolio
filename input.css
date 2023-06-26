@@ -9,13 +9,27 @@
 
 body{
     background: linear-gradient(110deg, orange, #883000);
+    font-family: 'Montserrat';
 }
 #web{
     position: absolute;
-    top: 16px;
-    left: 245px;
-    width: 370px;
-
+    top: 50px;
+    left: 115px;
+    width: 350px;
+    background-color: white;
+    padding: 20px 30px;
+    border: 1px #9a3412 solid;
+    border-radius: 2px;
+}
+#web2{
+    position: absolute;
+    bottom: 50px;
+    right: 55px;
+    width: 300px;
+    background-color: white;
+    padding: 20px 30px;
+    border: 1px #9a3412 solid;
+    border-radius: 2px;
 }
 #home{
     background-color: #9a3412;
@@ -24,8 +38,21 @@ body{
     color: white;
     border-radius: 8px;
 }
+.id:hover{
+    transform: skew(10deg);
+    transition: ease-in-out 0.2s;
+}
 #home:hover{
     background-color: #ffffff;
     color: #9a3412;
     border: 2px dashed #9a3412;
+}
+
+@media only screen and (max-width: 428px) {
+    #web{
+        top: 50px;
+        left: 85px;
+        width: 200px;
+        padding: 20px 30px;
+    }
 }
