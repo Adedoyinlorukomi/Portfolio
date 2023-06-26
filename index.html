@@ -6,81 +6,90 @@
     <title>Doyin's Portfolio</title>
     <link rel="stylesheet" href="input.css">
       <link href="output.css" rel="stylesheet">
+      <!--npx tailwindcss -i ./input.css -o ./output.css --watch-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montez&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
-      <!--npx tailwindcss -i ./input.css -o ./output.css --watch-->
-</head>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montez&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet"></head>
 <body class="relative">
-    <div class="m-auto w-[80%]">
-        <div class="bg-slate-200 h-[600px] pt-9 text-orange-950 flex flex-col gap-9" >
+    <div id="content" class="m-auto w-[80%]">
+        <div class="bg-slate-200 h-[750px] pt-9 text-orange-950 flex flex-col gap-9">
 
-            <div id="header" class="flex justify-around rp=flex rp=flex-col">
-                <div class="flex gap-3">
+            <div id="header" class="flex justify-around">
+                <div id="logo" class="flex gap-3">
                     <a  rel="noopener" href="#follow_me_on"><img src="./images/logo.png" alt="" class="w-[50px] h-[50px] pt-1"></a>
-                    <p class="text-4xl pt-2">Adedoyin A.Z</p>
-                </div>
-                <div class="flex gap-9 pt-3">
+                    <p class="text-4xl pt-2 font-bold">Adedoyin A.Z</p>
+                <a  rel="noopener" href="#coding_realization"><img src="./images/navbar.svg" id="nav" alt=""></a></div>
+                <div id="links" class="flex gap-9 pt-3">
                     <a rel="noopener" href="index.html" id="home">Home</a>
                     <a rel="noopener" href="#work_projects" class="id" class="text-">Work</a>
                     <a  rel="noopener" href="#coding_realization" class="id">About</a>
                     <a  rel="noopener" href="#follow_me_on" class="id">Contact</a>
                 </div>
-                <a  rel="noopener" href="#coding_realization"><img class="rp=invisible" src="./images/navbar.svg" alt=""></a>
+                <a  rel="noopener" href="#coding_realization"><img id="nav-two" src="./images/navbar.svg" alt=""></a>
             </div>
             <div class="relative">
-                <img src="./images/banner-two.jpg" alt="" class="w-[500px] h-[360px] m-auto mt-7 rounded-3xl
-                rp=mt-2 rp=h-[186px]">
+                <img src="./images/banner-two.jpg" alt="" class="w-[667px] h-[480px] m-auto mt-7">
                 <p id="web" class="text-orange-800 text-3xl font-semibold italic">Web development?</p>
                     <p id="web2" class="text-orange-800 text-3xl font-semibold italic"> my passion</p>
             </div>
         </div>
         
-        <div id="about" class="bg-black h-[700px] text-white">
-            <div class="text-center pt-9">
-                <a id="coding_realization"><p class="">ABOUT ME</p></a>
-                <p>Coding for me is my newest realization, 
-                    and i intend on advancing in this skill and keeping it for a very long time</p>
+        <div id="about" class="bg-black h-[1260px] text-white pt-5">
+            <a id="coding_realization"><p class="text-center mb-5 underline text-3xl text-orange-800 bg-white">ABOUT ME</p></a>
+             <div class="text-center pt-3 flex flex-col gap-9">
+               <p class="text-3xl font-['Montez']">..coding for me is my newest realization, 
+                    and i intend on advancing in this skill and keeping it for a very long time..</p>
+                    <div class="flex flex-col gap-2 justify-around">
+                <img src="./images/profile.jpeg" height="672px" width="504px" style="border-radius: 200px; margin: auto;" alt="">
+          <div>
+           
                 <p>I am Adedoyin AKINSANYA, a 400level Anatomy student of Olabisi Onabanjo University, Sagamu campus.</p>
             </div>
-            <div>
-                Attended Axia Africa bootcamp, currently taking a Front-end Engineering course, at Axia Africa.
-                Below are the tools I am well versed in:
-                <div class="flex gap-10">
-                    <ol type="">
-                        <li>HTML</li>
-                        <li>CSS</li>
+            <div class="text-center">
+                Attended Axia Africa bootcamp, currently taking a Front-end Engineering course, at Axia Africa.<br>
+                Below are the tools I am well versed in:</div>
+                <div class="flex gap-10 justify-around mt-10">
+                    <ol>
+                        <li>HTML</li><br>
+                        <li>CSS</li> <br>
                         <li>TAILWIND CSS</li>
-                        <li>JAVASCRIPT</li>
                     </ol>
 
-                    <ol type="I">
-                        <li>VS CODE</li>
-                        <li>GITHUB</li>
-                        <li>NETLIFY</li>
+                    <ol>
+                        <li>VS CODE</li><br>
+                        <li>GITHUB</li><br>
+                        <li>NETLIFY</li><br>
                     </ol>
                 </div>
+               
+
             </div>
-        </div>
-        <div class="bg-black h-[700px]">
-            <p class="">ABOUT ME</p>
+           </div>
+            
         </div>
 
-        <div class="bg-black h-[500px] p-[100px]">
-            <div class="flex justify-between text-white">
-                <div class="">Adedoyin Akinsanya</div>
+        <div class="bg-black h-[700px]">
+            <p class="text-white">ABOUT ME</p>
+        </div>
+
+        <div id="my-contact" class="bg-black h-[580px] p-[100px]">
+            <div id="follow" class="flex justify-between text-white">
+                <div id="adedoyin" class="text-2xl font-[Montez]">Adedoyin Akinsanya</div>
                 <div class="flex flex-col gap-2">
                     <a id="follow_me_on"><p class="">Follow me on</p></a>
                     <div class="flex gap-5">
-                        <a href="#"><img src="./images/twitter-white.svg" alt=""></a>
-                        <a href="#"><img src="./images/IG-white.svg" alt=""></a>
-                        <a href="#"><img src="./images/discord-white.svg" alt=""></a>
-                        <a href="#"><img src="./images/twitter-white.svg" alt=""></a>
+                        <a href="#"><img src="./images/twitter-white.svg" alt="twitter"></a>
+                        <a href="#"><img src="./images/IG-white.svg" alt="ig"></a>
+                        <a href="#"><img src="./images/discord-white.svg" alt="discord"></a>
+                        <a href="#"><img src="./images/git.svg" alt="github"></a>
+                        <a href="#"><img src="./images/linkedin.png" alt="" width="24px" height="24px" class="rounded-lg"></a>
+                        <a href="#"><img src="./images/fb.png" alt="facebook" width="24px" height="24px" class="rounded-xl"></a>
                     </div>
                 </div>
             </div>
-            <p class="text-5xl text-white text-center mt-[89px] font-['Poppins']">keep in touch with me<br>text Hi!</p>
-            <div class=" text-white flex justify-around mt-[110px]">
+
+            <p id="keep">keep in touch with me...<br>text Hi!</p>
+            <div id="mail" class=" text-white flex justify-around mt-[110px]">
                 <div class="flex">
                     <img src="./images/whatsapp.png" height="60px" width="60px" alt="whatsapp" class="mt-[-15px]"> 
                     <p>09155064110</p>
