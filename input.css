@@ -119,6 +119,7 @@ li:hover{
     #projects{
         flex-direction: column-reverse;
         gap: 6px;
+        margin-bottom: 500px;
 
     }
     #img-one{
