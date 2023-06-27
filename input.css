@@ -13,6 +13,7 @@ body{
     opacity: 92%;
     font-family: 'Montserrat';
 }
+
 #web{
     position: absolute;
     top: 50px;
@@ -39,7 +40,9 @@ body{
     height: 32px;
     color: white;
     border-radius: 8px;
+    margin-bottom: 2px;
 }
+
 .id:hover{
     transform: skew(10deg);
     transition: ease-in-out 0.2s;
@@ -72,6 +75,20 @@ li:hover{
 }
 #nav{
     display:  none;
+}
+#btn1,#btn2{
+    border-radius: 3px;
+    border: 0.5px #ffffff dashed;
+    padding: 11px 20px;
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+#btn1:hover,#btn2:hover{
+    background-color: #ffffff;
+    border: 0.5px dashed #022c22;
+    color: #022c22;
+    transform: rotate(360deg);
+    transition: ease-in-out 0.4s;
 }
 
 
@@ -119,8 +136,6 @@ li:hover{
     #projects{
         flex-direction: column-reverse;
         gap: 6px;
-        margin-bottom: 500px;
-
     }
     #img-one{
         flex-direction: flex;
@@ -130,5 +145,11 @@ li:hover{
     }
     #height{
         height: 1400px;
+    }
+    #banner{
+        height: 400px;
+    }
+    #about{
+        height: 1600px;
     }
 }

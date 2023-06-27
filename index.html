@@ -11,10 +11,14 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montez&family=Montserrat:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet"></head>
 <body class="relative">
+    <script>
+        let Welcome='Welcome to my page'
+        console.log=alert("Welcome to my page")
+    </script>
     <div id="content" class="m-auto w-[80%]">
-        <div class="h-[750px] pt-9 text-emerald-950 flex flex-col gap-9">
+        <div class="h-[750px] pt-9 text-white flex flex-col gap-9">
 
-            <div id="header" class="flex justify-around">
+            <div id="header" class="flex justify-around bg-emerald-800 pt-2 pb-2">
                 <div id="logo" class="flex gap-3">
                     <a  rel="noopener" href="#follow_me_on"><img src="./images/logo.png" alt="" class="w-[50px] h-[50px] pt-1"></a>
                     <p class="text-4xl pt-2 font-bold">Adedoyin A.Z</p>
@@ -28,26 +32,34 @@
                 <a  rel="noopener" href="#coding_realization"><img id="nav-two" src="./images/navbar.svg" alt=""></a>
             </div>
             <div class="relative">
-                <img src="./images/banner-two.jpg" alt="" class="w-[100%] h-[600px] m-auto mt-7">
-                <p id="web" class="text-emerald-950 text-3xl font-semibold italic">Web development?</p>
-                    <p id="web2" class="text-emerald-950 text-3xl font-semibold italic"> my passion</p>
+                <img id="banner" src="./images/banner-two.jpg" alt="" class="w-[100%] h-[600px] m-auto mt-7">
+                <p id="web" class="text-emerald-950 text-3xl font-semibold font-['Montez']">Web development?</p>
+                    <p id="web2" class="text-emerald-950 text-3xl font-semibold font-['Montez']"> my passion</p>
             </div>
         </div>
         
-        <div id="about" class="bg-emerald-950 h-[1260px] text-white">
-            <a id="coding_realization"><p class="text-center mb-5 underline text-3xl text-orange-800 bg-white pt-3 pb-3">About me😅</p></a>
+        <div id="about" class="bg-emerald-950 h-[1450px] text-white">
+            <a id="coding_realization"><p class="text-center mb-5 text-3xl text-orange-800 bg-white pt-6 pb-4">About me😅</p></a>
              <div class="text-center pt-3 flex flex-col gap-9">
                <p class="text-3xl font-['Montez']">..coding for me is my newest realization, 
                     and i intend on advancing in this skill and keeping it for a very long time..</p>
                     <div class="flex flex-col gap-2 justify-around">
                 <img src="./images/profile.jpeg" height="672px" width="504px" style="border-radius: 200px; margin: auto;" alt="">
           <div>
-           
-                <p>I am Adedoyin AKINSANYA, a 400level Anatomy student of Olabisi Onabanjo University, Sagamu campus.</p>
+                <p class="text-lg tracking-[.15mm] w-[70%] m-auto whitespace-pre-line">Hi there!, I am <b>Adedoyin AKINSANYA,</b> a Front-end Engineer having specializationin 
+                    creating beautiful, simple, easy to navigate and responsive webpages using Front-end programming languages like JAVASCRIPT;html and CSS(pure and tailwind)
+            I am inspired to do more and more due to the enthusiasm i have for web development.</p>
             </div>
+            <div class="text-center underline text-xl mt-5">
+                Experience</div>
+                <div class="flex gap-10 justify-around mt-3">
+                    <ol>
+                        <li><a href="https://www.axia.africa/">Axia Africa(currently)</li></a><br>
+                        <li>Axia Africa Free bootcamp</li> <br>
+                    </ol>
+                </div>
             <div class="text-center">
-                Attended Axia Africa bootcamp, currently taking a Front-end Engineering course, at Axia Africa.<br>
-                Below are the tools I am well versed in:</div>
+                Here are the tools I am well versed in:</div>
                 <div class="flex gap-10 justify-around mt-10">
                     <ol>
                         <li>HTML</li><br>
@@ -68,39 +80,39 @@
             
         </div>
 
-        <div id="height" class="h-[700px] mt-7">
-           <p class="text-white text-center text-3xl underline">Projects😉</p> 
-            <div id="projects" class="flex justify-around mt-10 mb-12">
-                <div id="img-one">
-                    <img src="./images/Screenshot1.png" width="240px" height="300px" alt="">
-                    <a href="" id="#take_me_to_work"><p class="bg-emerald-950 text-white text-center text-xl">Github</p></a>
-                   <a href="#"><p class="bg-emerald-950 text-white text-center text-xl">Netlify link</p></a>
+        <div id="height" class="h-[1720px] mt-7">
+           <p class="text-emerald-950  text-center text-4xl font-black pt-2 pb-2 bg-white">Projects😉</p> 
+            <div id="projects" class="flex flex-col gap-[30px] pt-6">
+                <div id="img-one" class="">
+                    <img src="./images/Screenshot1.png" width="90%" alt="project-one">
+                    <a href="" id="#take_me_to_work"><button id="btn1" class="bg-emerald-950 text-white text-center text-xl">Github</button></a>
+                   <a href="https://adedoyinlorukomi-resp.netlify.app/"><button id="btn2" class="bg-emerald-950 text-white text-center text-xl">Netlify link</button></a>
                 </div>
-                <div id="img-two" class="mt-14">
-                    <img src="./images/Screenshot2.png" width="240px" height="228px" alt="">
-                    <a href=""><p class="bg-emerald-950 text-white text-center text-xl">Github</p></a>
-                   <a href="#"><p class="bg-emerald-950 text-white text-center text-xl">Netlify link</p></a>
+                <div id="img-two" class="">
+                    <img src="./images/Screenshot2.png" width="90%" alt="project-two">
+                    <a href=""><button  id="btn1"class="bg-emerald-950 text-white text-center text-xl">Github</button></a>
+                   <a href="https://adedoyins-dashboard.netlify.app/"><button  id="btn2" class="bg-emerald-950 text-white text-center text-xl">Netlify link</button></a>
                 </div>
                 <div id="img-three">
-                    <img src="./images/Screenshot3.png" width="240px" height="238px" alt="">
-                    <a href=""><p class="bg-emerald-950 text-white text-center text-xl">Github</p></a>
-                   <a href="#"><p class="bg-emerald-950 text-white text-center text-xl">Netlify link</p></a>
+                    <img src="./images/Screenshot3.png" width="90%" alt="project-three">
+                    <a href=""><button id="btn1" class="bg-emerald-950 text-white text-center text-xl">Github</button></a>
+                   <a href="#"><button id="btn2" class="bg-emerald-950 text-white text-center text-xl">Netlify link</button></a>
                 </div>
             </div>
         </div>
 
         <div id="my-contact" class="bg-emerald-950 h-[580px] p-[100px]">
-            <div id="follow" class="flex justify-between text-white">
+            <div id="follow" class="flex justify-between text-white pt-7">
                 <div id="adedoyin" class="text-2xl font-[Montez]">Adedoyin Akinsanya</div>
                 <div class="flex flex-col gap-2">
                     <a id="follow_me_on"><p class="">Follow me on</p></a>
                     <div class="flex gap-5">
-                        <a href="#"><img src="./images/twitter-white.svg" alt="twitter"></a>
-                        <a href="#"><img src="./images/IG-white.svg" alt="ig"></a>
-                        <a href="#"><img src="./images/discord-white.svg" alt="discord"></a>
-                        <a href="#"><img src="./images/git.svg" alt="github"></a>
-                        <a href="#"><img src="./images/linkedin.png" alt="" width="24px" height="24px" class="rounded-lg"></a>
-                        <a href="#"><img src="./images/fb.png" alt="facebook" width="24px" height="24px" class="rounded-xl"></a>
+                        <a href="https://twitter.com/doyinlorukomi"><img src="./images/twitter-white.svg" alt="twitter"></a>
+                        <a href="http://instagram.com/adedoyinlorukomi"><img src="./images/IG-white.svg" alt="ig"></a>
+                        <a href="http://discordapp.com/users/Adedoyin#1757"><img src="./images/discord-white.svg" alt="discord"></a>
+                        <a href="https://github.com/Adedoyinlorukomi"><img src="./images/git.svg" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/adedoyin-deborah-952b3b253"><img src="./images/linkedin.png" alt="" width="24px" height="24px" class="rounded-lg"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100076495167407"><img src="./images/fb.png" alt="facebook" width="24px" height="24px" class="rounded-xl"></a>
                     </div>
                 </div>
             </div>
@@ -108,7 +120,7 @@
             <p id="keep">keep in touch with me...<br>text Hi!</p>
             <div id="mail" class=" text-white flex justify-around mt-[110px]">
                 <div class="flex">
-                    <img src="./images/whatsapp.png" height="60px" width="60px" alt="whatsapp" class="mt-[-15px]"> 
+                    <a href="https://wa.me/+2349155064110"><img src="./images/whatsapp.png" height="60px" width="60px" alt="whatsapp" class="mt-[-15px]"></a> 
                     <p>09155064110</p>
                 </div>
                 <a href="mailto: [akindoyin800@gmail.com]"> Email me! @akindoyin800@gmail.com </a>
