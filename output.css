@@ -641,8 +641,16 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .mt-2 {
@@ -760,12 +768,12 @@ video {
   display: none;
 }
 
-.h-\[1220px\] {
-  height: 1220px;
+.h-\[1260px\] {
+  height: 1260px;
 }
 
-.h-\[360px\] {
-  height: 360px;
+.h-\[480px\] {
+  height: 480px;
 }
 
 .h-\[50px\] {
@@ -776,84 +784,44 @@ video {
   height: 580px;
 }
 
-.h-\[600px\] {
-  height: 600px;
-}
-
 .h-\[700px\] {
   height: 700px;
 }
 
-.h-\[400px\] {
-  height: 400px;
+.h-\[750px\] {
+  height: 750px;
 }
 
-.h-\[840px\] {
-  height: 840px;
+.h-\[60px\] {
+  height: 60px;
 }
 
-.h-\[980px\] {
-  height: 980px;
-}
-
-.h-\[1200px\] {
-  height: 1200px;
-}
-
-.h-\[1270px\] {
-  height: 1270px;
-}
-
-.h-\[1320px\] {
-  height: 1320px;
-}
-
-.h-\[1260px\] {
-  height: 1260px;
-}
-
-.w-\[500px\] {
-  width: 500px;
+.h-\[600px\] {
+  height: 600px;
 }
 
 .w-\[50px\] {
   width: 50px;
 }
 
+.w-\[667px\] {
+  width: 667px;
+}
+
 .w-\[80\%\] {
   width: 80%;
-}
-
-.w-\[100\%\] {
-  width: 100%;
-}
-
-.w-\[600px\] {
-  width: 600px;
 }
 
 .w-\[90\%\] {
   width: 90%;
 }
 
-.w-\[900px\] {
-  width: 900px;
+.w-\[full\] {
+  width: full;
 }
 
-.w-\[1300px\] {
-  width: 1300px;
-}
-
-.w-\[14500px\] {
-  width: 14500px;
-}
-
-.w-\[1450px\] {
-  width: 1450px;
-}
-
-.w-\[50\%\] {
-  width: 50%;
+.w-\[100\%\] {
+  width: 100%;
 }
 
 .flex-shrink {
@@ -1688,10 +1656,6 @@ video {
   border-radius: 0.25rem;
 }
 
-.rounded-3xl {
-  border-radius: 1.5rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -1834,9 +1798,24 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-slate-200 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-gray-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 44 34 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -1973,6 +1952,10 @@ video {
   padding-top: 2.25rem;
 }
 
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2029,12 +2012,12 @@ video {
   vertical-align: super;
 }
 
-.font-\[Montez\] {
-  font-family: Montez;
-}
-
 .font-\[\'Montez\'\] {
   font-family: 'Montez';
+}
+
+.font-\[Montez\] {
+  font-family: Montez;
 }
 
 .text-2xl {
@@ -2482,6 +2465,7 @@ video {
 body{
   background: url(./images/orange.jpg);
   background-repeat: repeat;
+  opacity: 92%;
   font-family: 'Montserrat';
 }
 
@@ -2540,6 +2524,7 @@ li{
   border: 1px dashed #9a3412;
   color: #9a3412;
   border-radius: 5px;
+  padding: 4px 6px;
 }
 
 li:hover{
@@ -2550,12 +2535,76 @@ li:hover{
   transition: ease-in-out 1s;
 }
 
+#nav{
+  display:  none;
+}
+
 @media only screen and (max-width: 428px) {
-  #web{
-    top: 50px;
-    left: 85px;
-    width: 200px;
-    padding: 20px 30px;
+  #web,#web2{
+    display: none;
+  }
+
+  #mail{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #my-contact{
+    padding: 30px;
+    height: 678px;
+  }
+
+  #follow{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #keep{
+    margin-top: 30px;
+  }
+
+  #adedoyin{
+    text-align: center;
+  }
+
+  #content{
+    width: 97%;
+  }
+
+  #header{
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  #logo{
+    justify-content: space-between;
+  }
+
+  #nav{
+    display: block;
+    padding-top: 9px;
+  }
+
+  #links{
+    margin: auto;
+  }
+
+  #nav-two{
+    display: none;
+  }
+
+  #projects{
+    flex-direction: column-reverse;
+    gap: 6px;
+  }
+
+  #img-one{
+    flex-direction: flex;
+    margin-top: 1px;
+  }
+
+  #height{
+    height: 1400px;
   }
 }
 

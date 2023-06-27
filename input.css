@@ -10,6 +10,7 @@
 body{
     background: url(./images/orange.jpg);
     background-repeat: repeat;
+    opacity: 92%;
     font-family: 'Montserrat';
 }
 #web{
