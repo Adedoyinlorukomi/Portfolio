@@ -681,10 +681,6 @@ video {
   margin-top: -15px;
 }
 
-.mt-\[-160px\] {
-  margin-top: -160px;
-}
-
 .mt-\[110px\] {
   margin-top: 110px;
 }
@@ -800,12 +796,12 @@ video {
   height: 50px;
 }
 
-.h-\[580px\] {
-  height: 580px;
-}
-
 .h-\[600px\] {
   height: 600px;
+}
+
+.h-\[720px\] {
+  height: 720px;
 }
 
 .h-\[750px\] {
@@ -1979,6 +1975,10 @@ video {
   padding-top: 2.25rem;
 }
 
+.pt-\[80px\] {
+  padding-top: 80px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2596,8 +2596,16 @@ li:hover{
   background-color: black;
   color: white;
   padding: 16px 8px;
-  border-radius: 2px;
-  border: 1px solid #022c22;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+#title:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  transform: translateX(20deg);
+  transition: ease-in-out 0.2s;
 }
 
 @media only screen and (max-width: 428px) {
@@ -2674,6 +2682,7 @@ li:hover{
 
   #about{
     height: 1600px;
+    margin-top: -242px;
   }
 
   #star{
