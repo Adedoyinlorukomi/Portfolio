@@ -82,6 +82,7 @@ li:hover{
     padding: 11px 20px;
     font-family: 'Poppins';
     font-size: 16px;
+    
 }
 #btn1:hover,#btn2:hover{
     background-color: #ffffff;
@@ -89,6 +90,13 @@ li:hover{
     color: #022c22;
     transform: rotate(360deg);
     transition: ease-in-out 0.2s;
+}
+#title{
+    background-color: black;
+    color: white;
+    padding: 16px 8px;
+    border-radius: 2px;
+    border: 1px solid #022c22;
 }
 
 
@@ -147,7 +155,7 @@ li:hover{
         height: 1400px;
     }
     #banner{
-        height: 400px;
+        height: 271px;
     }
     #about{
         height: 1600px;
@@ -156,6 +164,9 @@ li:hover{
         display: none;
     }
     #height{
-        height: 1200px;
+        height: 1140px;
+    }
+    #btn1,#btn2{
+        display: block;
     }
 }
