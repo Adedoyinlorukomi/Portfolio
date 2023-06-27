@@ -102,8 +102,13 @@ li:hover{
     background-color: white;
     color: black;
     border: 1px solid black;
-    transform: translateX(20deg);
+    transform: translateX(70px);
     transition: ease-in-out 0.2s;
+}
+#flame{
+    position: absolute;
+    bottom: 130px;
+    right: 300px;
 }
 
 
@@ -159,7 +164,7 @@ li:hover{
         margin-top: 1px;
     }
     #height{
-        height: 1400px;
+        height: 1480px;
     }
     #banner{
         height: 271px;
@@ -168,7 +173,7 @@ li:hover{
         height: 1600px;
         margin-top: -242px;
     }
-    #star{
+    #star,#flame{
         display: none;
     }
     #height{
@@ -176,5 +181,9 @@ li:hover{
     }
     #btn1,#btn2{
         display: block;
+    }
+    #my-contact{
+        height: 790px;
+        margin-top: 50px;
     }
 }
