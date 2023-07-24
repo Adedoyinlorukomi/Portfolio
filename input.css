@@ -42,7 +42,9 @@ body{
     border-radius: 8px;
     margin-bottom: 2px;
 }
-
+.id{
+    color: white;
+}
 .id:hover{
     transform: skew(10deg);
     transition: ease-in-out 0.2s;

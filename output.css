@@ -1971,10 +1971,6 @@ video {
   padding-top: 1.75rem;
 }
 
-.pt-9 {
-  padding-top: 2.25rem;
-}
-
 .pt-\[80px\] {
   padding-top: 80px;
 }
@@ -2534,6 +2530,10 @@ body{
   color: white;
   border-radius: 8px;
   margin-bottom: 2px;
+}
+
+.id{
+  color: white;
 }
 
 .id:hover{
