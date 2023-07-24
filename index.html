@@ -26,29 +26,30 @@
             <div id="header" class="flex justify-around bg-emerald-800 pt-2 pb-2">
                 <div id="logo" class="flex gap-3">
                     <a  rel="noopener" href="#follow_me_on"><img src="./images/logo.png" alt="" class="w-[50px] h-[50px] pt-1"></a>
-                    <p class="text-4xl pt-2 font-bold">Adedoyin A.Z</p>
-                <a  rel="noopener" href="#coding_realization"><img src="./images/navbar.svg" id="nav" alt=""></a></div>
-                <div id="links" class="flex gap-9 pt-3">
-                    <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="Hooray!"><p id="home">Home</p></button>
-                    <button type="button" data-bs-toggle="tooltip" title="Hooray!"><a rel="noopener" href="#coding_realization" class="id">Work</a>
+                    <p class="text-4xl pt-2 font-bold">A.Z</p>
+                    <button class="btn bg-emerald-800" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+                        <img id="nav-two" src="./images/navbar.svg"  class="invisible max-[428px]:visible" alt="">
+                      </button>
+            </div>
+                <div id="links" class="flex gap-9 pt-3 max-[428px]:collapse">
+                    <a class="mt-[-3px]" href="index.html" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="You are currently on the homepage" id="home">Home</a>
+                    <a rel="noopener" href="#coding_realization" class="id">Work</a>
                     <a  rel="noopener" href="#coding_realization" class="id">About</a>
                     <a  rel="noopener" href="#follow_me_on" class="id">Contact</a>
                 </div>
-                <div class="offcanvas offcanvas-end" id="demo">
+                <div class="offcanvas offcanvas-end" id="demo" class="max-[428px]:collapse">
                     <div class="offcanvas-header">
                       <h1 class="offcanvas-title">Heading</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body">
-                      <p>Some text lorem ipsum.</p>
-                      <p>Some text lorem ipsum.</p>
-                      <p>Some text lorem ipsum.</p>
+                        <a class="mt-[-3px]" href="index.html" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="You are currently on the homepage" id="home">Home</a>
+                        <a rel="noopener" href="#coding_realization" class="id">Work</a>
+                        <a  rel="noopener" href="#coding_realization" class="id">About</a>
+                        <a  rel="noopener" href="#follow_me_on" class="id">Contact</a>
                       <button class="btn btn-secondary" type="button">A Button</button>
                     </div>
                   </div>
-                  <button class="btn bg-emerald-800" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
-                    <img id="nav-two" src="./images/navbar.svg" alt="">
-                  </button>
             </div>
             <div class="relative">
                 <img id="banner" src="./images/banner-two.jpg" alt="" class="w-[100%] h-[600px] m-auto">

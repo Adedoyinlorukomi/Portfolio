@@ -152,9 +152,6 @@ li:hover{
     #links{
         margin: auto;
     }
-    #nav-two{
-        display: none;
-    }
     #projects{
         flex-direction: column-reverse;
         gap: 6px;

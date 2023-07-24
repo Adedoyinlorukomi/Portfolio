@@ -681,6 +681,10 @@ video {
   margin-top: -15px;
 }
 
+.mt-\[-3px\] {
+  margin-top: -3px;
+}
+
 .mt-\[110px\] {
   margin-top: 110px;
 }
@@ -2664,10 +2668,6 @@ li:hover{
     margin: auto;
   }
 
-  #nav-two{
-    display: none;
-  }
-
   #projects{
     flex-direction: column-reverse;
     gap: 6px;
@@ -2729,4 +2729,22 @@ li:hover{
 
 .hover\:focus\:text-center:focus:hover {
   text-align: center;
+}
+
+@media (max-width: 428px) {
+  .max-\[428px\]\:visible {
+    visibility: visible;
+  }
+
+  .max-\[428px\]\:invisible {
+    visibility: hidden;
+  }
+
+  .max-\[428px\]\:collapse {
+    visibility: collapse;
+  }
+
+  .max-\[428px\]\:flex {
+    display: flex;
+  }
 }
