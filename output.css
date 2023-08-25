@@ -833,6 +833,10 @@ video {
   width: min-content;
 }
 
+.w-3\/5 {
+  width: 60%;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
