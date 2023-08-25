@@ -808,10 +808,6 @@ video {
   height: 1800px;
 }
 
-.h-\[890px\] {
-  height: 890px;
-}
-
 .h-\[800px\] {
   height: 800px;
 }
@@ -820,8 +816,8 @@ video {
   width: 50%;
 }
 
-.w-2\/5 {
-  width: 40%;
+.w-3\/5 {
+  width: 60%;
 }
 
 .w-\[80\%\] {
@@ -831,10 +827,6 @@ video {
 .w-min {
   width: -moz-min-content;
   width: min-content;
-}
-
-.w-3\/5 {
-  width: 60%;
 }
 
 .flex-shrink {
@@ -2548,7 +2540,6 @@ body{
 }
 
 #home{
-  background-color: #9a3412;
   padding: 2px 7px;
   height: 32px;
   color: white;
@@ -2556,19 +2547,9 @@ body{
   margin-bottom: 2px;
 }
 
-.id{
-  color: white;
-}
-
-.id:hover{
-  transform: skew(10deg);
-  transition: ease-in-out 0.2s;
-}
-
 #home:hover{
   background-color: #ffffff;
-  color: #9a3412;
-  border: 2px dashed #9a3412;
+  color: black;
 }
 
 #keep{
@@ -2580,58 +2561,6 @@ body{
   text-align: center;
 }
 
-li{
-  background-color: white;
-  border: 1px dashed #9a3412;
-  color: #9a3412;
-  border-radius: 5px;
-  padding: 4px 6px;
-}
-
-li:hover{
-  background-color: #d85023;
-  border: 1px solid white;
-  color: white;
-  transform: translateX(39px);
-  transition: ease-in-out 1s;
-}
-
-#nav{
-  display:  none;
-}
-
-#btn1,#btn2{
-  border-radius: 3px;
-  border: 0.5px #ffffff dashed;
-  padding: 11px 20px;
-  font-family: 'Poppins';
-  font-size: 16px;
-}
-
-#btn1:hover,#btn2:hover{
-  background-color: #ffffff;
-  border: 0.5px dashed #022c22;
-  color: #022c22;
-  transform: rotate(360deg);
-  transition: ease-in-out 0.2s;
-}
-
-#title{
-  background-color: black;
-  color: white;
-  padding: 16px 8px;
-  border-radius: 10px;
-  border: 1px solid white;
-}
-
-#title:hover{
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  transform: translateX(70px);
-  transition: ease-in-out 0.2s;
-}
-
 #flame{
   position: absolute;
   bottom: 130px;
@@ -2639,10 +2568,6 @@ li:hover{
 }
 
 @media only screen and (max-width: 428px) {
-  #web,#web2{
-    display: none;
-  }
-
   #mail{
     flex-direction: column;
     gap: 10px;
@@ -2667,38 +2592,12 @@ li:hover{
   }
 
   #content{
-    width: 97%;
-  }
-
-  #header{
-    flex-direction: column;
-    gap: 14px;
-  }
-
-  #logo{
-    justify-content: space-between;
-  }
-
-  #nav{
-    display: block;
-    padding-top: 9px;
-  }
-
-  #links{
-    margin: auto;
+    width: 87%;
   }
 
   #projects{
     flex-direction: column-reverse;
     gap: 6px;
-  }
-
-  #height{
-    height: 1480px;
-  }
-
-  #banner{
-    height: 271px;
   }
 
   #star,#flame{
@@ -2756,6 +2655,10 @@ li:hover{
 }
 
 @media (max-width: 426px) {
+  .sm\:collapse {
+    visibility: collapse;
+  }
+
   .sm\:float-none {
     float: none;
   }
