@@ -8,32 +8,21 @@
 }
 
 body{
-    background: url(./images/orange.jpg);
-    background-repeat: repeat;
+    background-color: #F3F3F3;
     opacity: 92%;
     font-family: 'Montserrat';
 }
 
-#web{
-    position: absolute;
-    top: 50px;
-    left: 115px;
-    width: 350px;
-    background-color: white;
-    padding: 20px 30px;
-    border: 1px #9a3412 solid;
-    border-radius: 2px;
-}
-#web2{
-    position: absolute;
-    bottom: 50px;
-    right: 55px;
-    width: 300px;
-    background-color: white;
-    padding: 20px 30px;
-    border: 1px #9a3412 solid;
-    border-radius: 2px;
-}
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+  }
+
+
 #home{
     background-color: #9a3412;
     padding: 2px 7px;
@@ -110,7 +99,7 @@ li:hover{
 #flame{
     position: absolute;
     bottom: 130px;
-    right: 300px;
+    right: 280px;
 }
 
 
@@ -156,22 +145,14 @@ li:hover{
         flex-direction: column-reverse;
         gap: 6px;
     }
-    #img-one{
-        flex-direction: flex;
-    }
-    #img-one{
-        margin-top: 1px;
-    }
+    
     #height{
         height: 1480px;
     }
     #banner{
         height: 271px;
     }
-    #about{
-        height: 1600px;
-        margin-top: -242px;
-    }
+   
     #star,#flame{
         display: none;
     }

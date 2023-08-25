@@ -15,29 +15,26 @@
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montez&family=Montserrat:wght@300&family=Niconne&family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
       
-    <body class="relative">
+    <body class="relative bg-[#F3F3F3]">
     <!-- <script>
         let Welcome='Welcome to my page, Enjoy your view. Thank you😉'
         console.log=alert(Welcome)
     </script> -->
-    <div id="content" class="m-auto w-[80%]">
-        <div class="h-[750px] text-white flex flex-col">
-
-            <div id="header" class="flex justify-around bg-emerald-800 pt-2 pb-2">
+            <div class="flex justify-around bg-black pt-2 pb-2" id="navbar">
                 <div id="logo" class="flex gap-3">
-                    <a  rel="noopener" href="#follow_me_on"><img src="./images/logo.png" alt="" class="w-[50px] h-[50px] pt-1"></a>
-                    <p class="text-4xl pt-2 font-bold">A.Z</p>
+                    <p class="text-4xl pt-2 font-bold">az.</p>
                     <button class="btn bg-emerald-800" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
                         <img id="nav-two" src="./images/navbar.svg"  class="invisible max-[428px]:visible" alt="">
                       </button>
-            </div>
+                </div>
                 <div id="links" class="flex gap-9 pt-3 max-[428px]:collapse">
                     <a class="mt-[-3px]" href="index.html" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="You are currently on the homepage" id="home">Home</a>
-                    <a rel="noopener" href="#coding_realization" class="id">Work</a>
+                    <a rel="noopener" href="#work" class="id">Work</a>
                     <a  rel="noopener" href="#coding_realization" class="id">About</a>
                     <a  rel="noopener" href="#follow_me_on" class="id">Contact</a>
                 </div>
-                <div class="offcanvas offcanvas-end" id="demo" class="max-[428px]:collapse">
+            </div>
+                <!-- <div class="offcanvas offcanvas-end" id="demo" class="max-[428px]:collapse">
                     <div class="offcanvas-header">
                       <h1 class="offcanvas-title">Heading</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
@@ -49,108 +46,158 @@
                         <a  rel="noopener" href="#follow_me_on" class="id">Contact</a>
                       <button class="btn btn-secondary" type="button">A Button</button>
                     </div>
-                  </div>
-            </div>
-            <div class="relative">
-                <img id="banner" src="./images/banner-two.jpg" alt="" class="w-[100%] h-[600px] m-auto">
-                <p id="web" class="text-emerald-950 text-3xl font-semibold font-['Montez']">Web development?</p>
-                    <p id="web2" class="text-emerald-950 text-3xl font-semibold font-['Montez']"> my passion</p>
+                  </div> -->
+        
+    <div id="content" class="m-auto w-[80%]">
+        <div id="about" class="mt-48 h-[670px]  sm:h-[970px]">
+           <img src="./images/doyin.jpg" height="384px" width="288px" alt="" class="float-right sm:float-none rounded-[29px]" style="margin-top: 50px;">
+            <div class="flex flex-col gap-4">
+                <p class="font-bold text-5xl w-2/5 sm:w-full sm:text-3xl">Hello, I'm Adedoyin Akinsanya Zainab, a Front-end Engineer
+                <p class="w-1/2 text-lg tracking-[.15mm] sm:w-full sm:text-lg"> I'm a front-end developer who loves to learn and explore new technologies. I'm passionate about creating user experiences that are simple and intuitive, and I'm always looking for new ways to improve my skills. I'm a team player who enjoys collaborating with others to create amazing products.</p>
+                <p class="w-1/2 text-lg tracking-[.15mm] sm:w-full sm:text-lg">I'm ready to learn and grow, and I'm excited to work on new projects! Let's chat about how we can work together to create something great!"</p>
             </div>
         </div>
-        
-        <div id="about" class="bg-emerald-950 h-[1450px] text-white">
-            <a id="coding_realization"><p class="text-center mb-5 text-3xl text-orange-800 bg-white pt-6 pb-4">About me😅</p></a>
-             <div class="text-center pt-3 flex flex-col gap-9">
-               <p class="text-2xl font-['Niconne'] w-[70%] m-auto">..coding for me is my newest realization, 
-                    and i intend on advancing in this skill and keeping it for a very long time...</p>
-                    <div class="flex flex-col gap-2 justify-around">
-                <img src="./images/profile.jpeg" height="672px" width="504px" style="border-radius: 200px; margin: auto;" alt="">
-          <div>
-                <p class="text-lg tracking-[.15mm] w-[70%] m-auto whitespace-pre-line">Hi there!, I am <b>Adedoyin AKINSANYA,</b> a Front-end Engineer having specialization in 
-                    creating beautiful, simple, easy to navigate and responsive webpages using Front-end programming languages like JAVASCRIPT; HTML and CSS(pure and tailwind)
-            I am inspired to do more and more due to the enthusiasm i have for web development.</p>
+    
+        <div class="flex flex-col gap-3 ml-8  sm:ml-4 mb-10">
+            <div class="flex justify-around">
+                <p class="underline text-lg sm:text-[16px]">Main software</p>
+                <div class="text-lg sm:text-[16px]">
+                    <p>Github, Visual Studio Code, Npm</p>
+                    <p>React, Bootstrap</p>
+                </div>
             </div>
-            <div class="services"></div>
+            <div class="flex justify-around">
+                <p class="underline text-lg sm:text-[16px]">Main skills</p>
+                <div class="text-lg sm:text-[16px]">
+                    <p>HTML AND CSS, JAVASCRIPT</p>
+                    <p>Tailwind CSS, React.Js, Bootstrap 5</p>
+                </div>
+            </div>
+        </div>
+            <!-- <div class="services"></div>
             <div class="text-center underline text-xl mt-5">Experience</div>
                 <div class="flex gap-10 justify-around mt-3">
                     <ol>
                         <li><a href="https://www.axia.africa/">Axia Africa(currently)</li></a><br>
                         <li>Axia Africa Free bootcamp</li> <br>
                     </ol>
-                </div>
-            <div class="text-center">
-                Here are the tools I am well versed in:</div>
-                <div class="flex gap-10 justify-around mt-10">
-                    <ol>
-                        <li>HTML</li><br>
-                        <li>CSS</li> <br>
-                        <li>TAILWIND CSS</li>
-                    </ol>
+                </div> -->
 
-                    <ol>
-                        <li>VS CODE</li><br>
-                        <li>GITHUB</li><br>
-                        <li> &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;NETLIFY &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li><br>
-                    </ol>
+        
+        <div class="mt-32">
+            <p class="text-4xl font-semibold pb-20">Some of my Projects</p>
+            <div class="border-b-[1px] border-black pb-7 mb-5">
+                <img src="./images/Screensht1.png" alt="project-one" class="float-right flex-shrink">
+                <div class="flex flex-col justify-between">
+                    <div class="flex flex-col gap-3">
+                        <p>SAAS Website Landing Page</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut. Dolorum deleniti molestias perferendis alias atque repudiandae! Est eveniet porro repellat accusantium quasi, quod quibusdam dicta rem aspernatur, enim earum vero unde labore? Reprehenderit minima esse cumque, id aliquam tempora?</p>
+                        <p>How i did it bla bla bla</p>
+                    </div>
+                    <a href="#">More shots from this project ↗</a>
                 </div>
-               
-
             </div>
-           </div>
-            
+
+            <div class="border-b-[1px] border-black pb-7 mb-5">
+                <img src="./images/Screensht1.png" alt="project-one" class="float-right flex-shrink">
+                <div class="flex flex-col justify-between">
+                    <div class="flex flex-col gap-3">
+                        <p>SAAS Website Landing Page</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut. Dolorum deleniti molestias perferendis alias atque repudiandae! Est eveniet porro repellat accusantium quasi, quod quibusdam dicta rem aspernatur, enim earum vero unde labore? Reprehenderit minima esse cumque, id aliquam tempora?</p>
+                        <p>How i did it bla bla bla</p>
+                    </div>
+                    <a href="#">More shots from this project ↗</a>
+                </div>
+            </div>
+
+            <div class="border-b-[1px] border-black pb-7 mb-5">
+                <img src="./images/Screensht1.png" alt="project-one" class="float-right flex-shrink">
+                <div class="flex flex-col justify-between">
+                    <div class="flex flex-col gap-3">
+                        <p>SAAS Website Landing Page</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut. Dolorum deleniti molestias perferendis alias atque repudiandae! Est eveniet porro repellat accusantium quasi, quod quibusdam dicta rem aspernatur, enim earum vero unde labore? Reprehenderit minima esse cumque, id aliquam tempora?</p>
+                        <p>How i did it bla bla bla</p>
+                    </div>
+                    <a href="#">More shots from this project ↗</a>
+                </div>
+            </div>
+
+            <div class="">
+                <img src="./images/Screensht1.png" alt="project-one" class="float-right flex-shrink">
+                <div class="flex flex-col justify-between">
+                    <div class="flex flex-col gap-3">
+                        <p>SAAS Website Landing Page</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ut. Dolorum deleniti molestias perferendis alias atque repudiandae! Est eveniet porro repellat accusantium quasi, quod quibusdam dicta rem aspernatur, enim earum vero unde labore? Reprehenderit minima esse cumque, id aliquam tempora?</p>
+                        <p>How i did it bla bla bla</p>
+                    </div>
+                    <a href="#">More shots from this project ↗</a>
+                </div>
+            </div>
         </div>
 
-        <div id="height" class="h-[1800px] mt-7">
-           <p class="text-emerald-950  text-center text-4xl font-black pt-2 pb-2 bg-white">Projects😉</p> 
+        <!-- <div id="height" class="h-[1800px] mt-[700px]">
+           <p class="text-emerald-950  text-center text-4xl font-black pt-2 pb-2">Projects😉</p> 
             <div id="projects" class="flex flex-col gap-[30px] pt-6">
-                <div id="img-one" class="">
-                    <img src="./images/Screenshot1.png" width="90%" alt="project-one">
-                    <button id="title" class="inline">SAAS Website Landing Page</button>
-                    <a href="https://github.com/Adedoyinlorukomi/Doyin-responsive-page.git" id="#take_me_to_work"><button id="btn1" class="bg-emerald-950 text-white text-center text-xl">Github</button></a>
-                   <a href="https://adedoyinlorukomi-resp.netlify.app/"><button id="btn2" class="bg-emerald-950 text-white text-center text-xl">Netlify</button></a>
+                <div id="one" class="">
+                    
+                    <button id="title" class="inline"></button>
+                    <a href="https://github.com/Adedoyinlorukomi/Doyin-responsive-page.git" id="#take_me_to_work"><button id="btn1" class="bg-black text-white text-center text-xl">Github</button></a>
+                   <a href="https://adedoyinlorukomi-resp.netlify.app/"><button id="btn2" class="bg-black text-white text-center text-xl">Netlify</button></a>
                 </div>
                 <div id="img-two" class="">
                     <img src="./images/Screenshot2.png" width="90%" alt="project-two">
                     <button id="title" class="inline">Website Dashboard(Desktop)</button>
-                    <a href="https://github.com/Adedoyinlorukomi/doyin-dashboard.git"><button id="btn1"class="bg-emerald-950 text-white text-center text-xl">Github</button></a>
-                   <a href="https://adedoyins-dashboard.netlify.app/"><button  id="btn2" class="bg-emerald-950 text-white text-center text-xl">Netlify</button></a>
+                    <a href="https://github.com/Adedoyinlorukomi/doyin-dashboard.git"><button id="btn1"class="bg-black text-white text-center text-xl">Github</button></a>
+                   <a href="https://adedoyins-dashboard.netlify.app/"><button  id="btn2" class="bg-black text-white text-center text-xl">Netlify</button></a>
                 </div>
                 <div id="img-three">
                     <img src="./images/Screenshot3.png" width="90%" alt="project-three">
                     <button id="title" class="bg-gray-950 text-white pt-4 pb-4 pr-2 pl-2 inline">Furniture Home Webpage</button>
-                    <a href="https://github.com/Adedoyinlorukomi/furniture-assignment.git"><button id="btn1" class="bg-emerald-950 text-white text-center text-xl">Github</button></a>
-                   <a href="https://furniture-assignment.netlify.app/"><button id="btn2" class="bg-emerald-950 text-white text-center text-xl">Netlify</button></a>
+                    <a href="https://github.com/Adedoyinlorukomi/furniture-assignment.git"><button id="btn1" class="bg-black text-white text-center text-xl">Github</button></a>
+                   <a href="https://furniture-assignment.netlify.app/"><button id="btn2" class="bg-black text-white text-center text-xl">Netlify</button></a>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div id="my-contact" class="bg-emerald-950 h-[720px] p-[100px]">
+        <div class="flex justify-around mt-[40px] border-t-[1.5px] border-black py-[70px]">
+            <div class="flex flex-col gap-6"> 
+                <span>I am thrilled to answer to your next project</span>
+                <img src="./images/goTo.svg" alt="" class="w-min">
+            </div>
+            <div class="flex flex-col gap-6"> 
+                <a href="makifkarasu@outlook.com" class="text-black">makifkarasu@outlook.com</a>
+                <p>View Resume</p>
+            </div>
+        </div>
+    </div>
+
+        <div id="my-contact" class="bg-black p-[100px]">
             <div id="follow" class="flex justify-between text-white pt-7 relative">
                 <img src="./images/star.svg" alt="" class="absolute bottom-[40px] left-[-40px]" id="star">
                 <img src="./images/star.svg" alt="" class="absolute bottom-[40px] left-[40px]" id="star">
                 <img src="./images/star.svg" alt="" class="absolute bottom-[10px]" id="star">
-                <div id="adedoyin" class="text-2xl font-['Niconne'] pt-2">Adedoyin Akinsanya</div>
+                <div id="adedoyin" class="text-4xl font-['Montserrat'] pt-2">az.</div>
                 <div class="flex flex-col gap-2">
                     <a id="follow_me_on"><p class="">Follow me on</p></a>
                     <div class="flex gap-5">
-                        <a href="https://twitter.com/doyinlorukomi"><img src="./images/twitter-white.svg" alt="twitter"></a>
-                        <a href="http://instagram.com/adedoyinlorukomi"><img src="./images/IG-white.svg" alt="ig"></a>
-                        <a href="http://discordapp.com/users/Adedoyin#1757"><img src="./images/discord-white.svg" alt="discord"></a>
-                        <a href="https://github.com/Adedoyinlorukomi"><img src="./images/git.svg" alt="github"></a>
-                        <a href="https://www.linkedin.com/in/adedoyin-deborah-952b3b253"><img src="./images/linkedin.png" alt="" width="24px" height="24px" class="rounded-lg"></a>
-                        <a href="https://www.facebook.com/profile.php?id=100076495167407"><img src="./images/fb.png" alt="facebook" width="24px" height="24px" class="rounded-xl"></a>
+                        <a href="https://twitter.com/coding_4L" target="_blank"><img src="./images/twitter-white.svg" alt="twitter"></a>
+                        <a href="http://instagram.com/adedoyinlorukomi" target="_blank"><img src="./images/IG-white.svg" alt="ig"></a>
+                        <a href="http://discordapp.com/users/Adedoyin#1757" target="_blank"><img src="./images/discord-white.svg" alt="discord"></a>
+                        <a href="https://github.com/Adedoyinlorukomi" target="_blank"><img src="./images/git.svg" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/adedoyin-deborah-952b3b253" target="_blank"><img src="./images/linkedin.png" alt="" width="24px" height="24px" class="rounded-lg"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100076495167407" target="_blank"><img src="./images/fb.png" alt="facebook" width="24px" height="24px" class="rounded-xl"></a>
                     </div>
                 </div>
             </div>
 
             <p id="keep">keep in touch with me...<br>text Hi!</p>
             <div id="mail" class=" text-white flex justify-around mt-[110px] relative">
-                <img src="./images/flame.svg" alt="" class="absolute bottom-[10px]" id="flame">
+                <img src="./images/flame.svg" alt="" class="absolute" id="flame">
                 <div class="flex">
-                    <a href="https://wa.me/+2349155064110"><img src="./images/whatsapp.png" height="60px" width="60px" alt="whatsapp" class="mt-[-15px]"></a> 
-                    <p>09155064110</p>
+                    <a href="https://wa.me/+2349155064110" target="_blank"><img src="./images/whatsapp.png" height="60px" width="60px" alt="whatsapp" class="mt-[-15px]"></a> 
+                    <a href="https://wa.me/+2349155064110" target="_blank" class="no-underline text-white"><p>09155064110</p></a>
                 </div>
-                <a href="mailto: [akindoyin800@gmail.com]"> Email me! @akindoyin800@gmail.com </a>
+                <a href="mailto: [akindoyin800@gmail.com]" target="_blank" class="text-white"> Email me! @akindoyin800@gmail.com </a>
             </div>
             <div class="text-center pt-[80px]">
                 <p class="text-white">©2022AllRightsReserved</p>
@@ -158,7 +205,6 @@
             </div>
 
         </div>
-    </div>
-    
+    <!-- npx tailwindcss -i ./input.css -o ./output.css --watch -->
 </body>
 </html>
