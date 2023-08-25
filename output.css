@@ -808,8 +808,12 @@ video {
   height: 1800px;
 }
 
-.h-\[670px\] {
-  height: 670px;
+.h-\[890px\] {
+  height: 890px;
+}
+
+.h-\[800px\] {
+  height: 800px;
 }
 
 .w-1\/2 {
@@ -1353,6 +1357,10 @@ video {
   gap: 0.75rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
@@ -1367,10 +1375,6 @@ video {
 
 .gap-\[30px\] {
   gap: 30px;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2094,14 +2098,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -2760,21 +2756,8 @@ li:hover{
     float: none;
   }
 
-  .sm\:ml-6 {
-    margin-left: 1.5rem;
-  }
-
   .sm\:ml-4 {
     margin-left: 1rem;
-  }
-
-  .sm\:h-max {
-    height: -moz-max-content;
-    height: max-content;
-  }
-
-  .sm\:h-\[900px\] {
-    height: 900px;
   }
 
   .sm\:h-\[970px\] {
@@ -2785,47 +2768,18 @@ li:hover{
     width: 100%;
   }
 
-  .sm\:justify-between {
-    justify-content: space-between;
-  }
-
-  .sm\:gap-6 {
-    gap: 1.5rem;
-  }
-
-  .sm\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .sm\:gap-2 {
-    gap: 0.5rem;
-  }
-
-  .sm\:gap-1 {
-    gap: 0.25rem;
-  }
-
-  .sm\:gap-\[6px\] {
-    gap: 6px;
-  }
-
-  .sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
 
+  .sm\:text-\[16px\] {
+    font-size: 16px;
+  }
+
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-\[16px\] {
-    font-size: 16px;
   }
 
   .sm\:underline {
