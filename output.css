@@ -705,6 +705,10 @@ video {
   margin-top: 700px;
 }
 
+.ml-\[95\%\] {
+  margin-left: 95%;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -806,14 +810,6 @@ video {
 
 .h-\[1800px\] {
   height: 1800px;
-}
-
-.h-\[800px\] {
-  height: 800px;
-}
-
-.h-\[890px\] {
-  height: 890px;
 }
 
 .h-\[930px\] {
@@ -1395,6 +1391,10 @@ video {
   gap: 40px;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1844,6 +1844,11 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .bg-\[\#F3F3F3\] {
   --tw-bg-opacity: 1;
   background-color: rgb(243 243 243 / var(--tw-bg-opacity));
@@ -1867,6 +1872,16 @@ video {
 .bg-gray-950 {
   --tw-bg-opacity: 1;
   background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -2004,10 +2019,6 @@ video {
   padding-bottom: 1.75rem;
 }
 
-.pb-\[60px\] {
-  padding-bottom: 60px;
-}
-
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -2042,10 +2053,6 @@ video {
 
 .pt-\[80px\] {
   padding-top: 80px;
-}
-
-.pb-\[156px\] {
-  padding-bottom: 156px;
 }
 
 .text-left {
@@ -2741,6 +2748,10 @@ body{
 }
 
 @media (max-width: 426px) {
+  .sm\:collapse {
+    visibility: collapse;
+  }
+
   .sm\:float-none {
     float: none;
   }
@@ -2753,12 +2764,28 @@ body{
     display: block;
   }
 
-  .sm\:h-\[970px\] {
-    height: 970px;
-  }
-
   .sm\:h-\[1200px\] {
     height: 1200px;
+  }
+
+  .sm\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .sm\:h-\[30px\] {
+    height: 30px;
+  }
+
+  .sm\:h-\[60px\] {
+    height: 60px;
+  }
+
+  .sm\:h-\[80px\] {
+    height: 80px;
+  }
+
+  .sm\:h-\[100px\] {
+    height: 100px;
   }
 
   .sm\:w-full {
@@ -2785,12 +2812,25 @@ body{
     gap: 1rem;
   }
 
+  .sm\:py-\[-10px\] {
+    padding-top: -10px;
+    padding-bottom: -10px;
+  }
+
   .sm\:pb-7 {
     padding-bottom: 1.75rem;
   }
 
   .sm\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .sm\:pb-\[-10px\] {
+    padding-bottom: -10px;
+  }
+
+  .sm\:pb-\[-30px\] {
+    padding-bottom: -30px;
   }
 
   .sm\:text-3xl {
