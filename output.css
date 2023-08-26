@@ -2070,8 +2070,8 @@ video {
   vertical-align: super;
 }
 
-.font-\[\'Montserrat\'\] {
-  font-family: 'Montserrat';
+.font-\[\'Niconne\'\] {
+  font-family: 'Niconne';
 }
 
 .text-4xl {
@@ -2100,6 +2100,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .font-semibold {
@@ -2537,6 +2541,7 @@ body{
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 100%;
+  padding: 0 30px;
 }
 
 #home{
@@ -2545,6 +2550,7 @@ body{
   color: white;
   border-radius: 8px;
   margin-bottom: 2px;
+  text-decoration: none;
 }
 
 #home:hover{
@@ -2604,16 +2610,12 @@ body{
     display: none;
   }
 
-  #height{
-    height: 1140px;
-  }
-
   #btn1,#btn2{
     display: block;
   }
 
   #my-contact{
-    height: 790px;
+    height: 1200px;
     margin-top: 50px;
   }
 }
@@ -2655,10 +2657,6 @@ body{
 }
 
 @media (max-width: 426px) {
-  .sm\:collapse {
-    visibility: collapse;
-  }
-
   .sm\:float-none {
     float: none;
   }
@@ -2673,6 +2671,22 @@ body{
 
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .sm\:justify-around {
+    justify-content: space-around;
+  }
+
+  .sm\:pb-7 {
+    padding-bottom: 1.75rem;
   }
 
   .sm\:text-3xl {
